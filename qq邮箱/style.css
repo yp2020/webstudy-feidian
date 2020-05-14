@@ -1,0 +1,101 @@
+.up1 {
+    height: 80px;
+    width: 100%;
+    line-height: 60px;
+    background: turquoise;
+}
+
+.up1 img {
+    width: 200px;
+    height: 80px;
+    margin-left: 2cm;
+}
+
+.up1 nav {
+    text-align: right;
+    font-size: 14px;
+    font-family: " 微软雅黑";
+    color: blue;
+    margin-top: -75px;
+}
+
+.content {
+    height: 400px;
+    width: 100%;
+    line-height: 25px;
+}
+
+.content .text {
+    font-family: "微软雅黑";
+    font-size: small;
+    margin-left: 150px;
+    margin-top: 100px;
+
+}
+
+.content .text h2 {
+    color: skyblue;
+}
+
+.content img {
+    width: 200px;
+    height: 350px;
+    margin-left: 300px;
+    margin-top: -200px;
+}
+
+#bg {
+    height: 300px;
+    width: 200px;
+    border: 1px solid black;
+
+}
+
+.content .biaoge {
+    width: 200px;
+    height: 350px;
+    margin-left: 900px;
+    margin-top: -350px;
+
+
+}
+
+.content .biaoge button {
+    margin-left: 30px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-family: " 微软雅黑";
+    color: white;
+    background-color: skyblue;
+}
+
+.content .biaoge nav {
+    margin-left: 30px;
+    font-size: 10px;
+    font-family: " 微软雅黑";
+    color: blue;
+}
+
+.footer {
+
+    width: 100%;
+    line-height: 20px;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background: turquoise;
+
+
+}
+
+.footer nav {
+    margin-left: 30px;
+    font-size: 10px;
+    font-family: " 微软雅黑";
+    color: blue;
+
+}
