@@ -1,0 +1,329 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* 顶部对的qq音乐啥的 */
+.header1 {
+    height: 100px;
+    width: 1300px;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+
+
+
+/* .header1 .a1 .wor {
+    margin-top: -25px;
+} */
+
+.header1 img {
+    height: 100px;
+    width: 210px;
+    margin-top: 4px;
+}
+
+.header1 .a1 .pic {
+    margin-top: -20px;
+    margin-left: 35px;
+    margin-bottom: -20px;
+}
+
+.header1 .a1 .pic img {
+    width: 40px;
+    height: 10px;
+}
+
+.header1 .a1 .wor {
+    margin-top: 10px;
+
+}
+
+.header1 .a1 {
+    margin-left: 15px;
+    font-size: 20px;
+    font-family: 'weiruanyahei';
+}
+
+.header1 .a1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.header .a1 a :link {
+    color: black;
+}
+
+.header1 .a1 a :visited {
+    color: #fff;
+    background-color: #31c27c;
+}
+
+.header1 .a1 a :hover {
+    color: #31c27c;
+}
+
+.header1 .a1 a :active {
+    color: #31c27c;
+}
+
+.header1 .search {
+    width: 260px;
+    height: 100px;
+    margin-left: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+
+}
+
+.header1 .search .search_input {
+    width: 220px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.header1 .search img {
+    width: 40px;
+    height: 40px;
+}
+
+.header1 .a2 {
+    height: 40px;
+    width: 150px;
+    margin-left: 20px;
+    background-color: #31c27c;
+    font-size: 17px;
+    border: 1px solid #c9c9c9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header1 .a2 a {
+    text-decoration: none;
+    color: #000;
+}
+
+.header1 .a3 {
+    height: 40px;
+    width: 100px;
+    margin-left: 20px;
+    font-size: 15px;
+    border: 1px solid #c9c9c9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header1 .a3 a {
+    text-decoration: none;
+    color: #000;
+}
+
+.header2 {
+    height: 40px;
+    width: 1300px;
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.header2 .kong1 {
+    margin-left: 180px;
+}
+
+.header2 .a1 {
+    margin-left: 80px;
+    font-size: 15px;
+}
+
+.header2 .a1 a {
+    text-decoration: none;
+    color: black;
+}
+
+/*
+歌单推荐部分来了
+*/
+.middle {
+    height: 380px;
+    width: 1300px;
+
+
+}
+
+.middle .recomb {
+
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.middle .recomb .mus {
+
+    font-size: 32px;
+    font-family: "微软雅黑";
+    font-weight: bold;
+}
+
+.middle .recoms {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.middle .recoms .kong2 {
+    margin-left: 350px;
+}
+
+.middle .recoms .a1 {
+    margin-left: 50px;
+    font-size: 15px;
+}
+
+.middle .recoms .a1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.middle .pngtomp4 {
+    width: 1300px;
+    height: 330px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.middle .pngtomp4 .png1 {
+
+    width: 224px;
+    height: 250px;
+    margin-left: 20px;
+    margin-top: -40px;
+}
+
+.middle .pngtomp4 .png1 img {
+    width: 224px;
+    height: 224px;
+}
+
+.middle .pngtomp4 .png1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.middle .pngtomp4 .png1 .p1 {
+    color: #999;
+    font-size: small;
+}
+
+.last {
+    height: 350px;
+    width: 1300px;
+}
+
+.last .newmusic {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.last .newmusic .yn1 {
+    font-size: 32px;
+    font-family: "微软雅黑";
+    font-weight: bold;
+}
+
+.last .fir {
+    width: 1300px;
+    height: 45px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.last .b3 {
+    height: 40px;
+    width: 90px;
+    font-family: "weiruanyahei";
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #c9c9c9;
+}
+
+.last .b3 a {
+    text-decoration: none;
+    color: black;
+}
+
+.last .kong3 {
+    margin-left: 200px;
+}
+
+.last .a1 {
+    margin-left: 55px;
+    font-size: 15px;
+}
+
+.last .a1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.last .wange {
+    background-color: #f2f2f2;
+}
+
+.last .fjoot1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.last .fjoot1 .f1h1 {
+    width: 433px;
+    height: 90px;
+    border-bottom: 1px solid #999;
+}
+
+.last .wange .fjoot1 .f1h1 a {
+    text-decoration: none;
+}
+
+.last .wange .fjoot1 .f1h1 .p2 {
+    margin-left: 100px;
+    margin-top: 20px;
+    color: #000;
+}
+
+.last .wange .fjoot1 .f1h1 .p3 {
+    margin-left: 100px;
+    margin-top: 5px;
+    color: #999;
+    font-size: 14px;
+
+}
+
+.last .wange .fjoot1 .f1h1 .time {
+    margin-left: 360px;
+    margin-top: -40px;
+    width: 42px;
+    color: #999;
+}
